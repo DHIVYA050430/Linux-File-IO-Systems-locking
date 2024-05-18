@@ -36,10 +36,7 @@ while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
 exit(0);}
 ```
-## OUTPUT
-```
--rwxr-xr-x    1 root     root         18348 Apr 17 14:14 file.o
-```
+
 ## 2.To Write a C program that illustrates files locking
 ```
 #include <fcntl.h>
@@ -82,9 +79,10 @@ return 0;
 ```
 
 ## OUTPUT
-```
--rwxr-xr-x    1 root     root         18376 Apr 17 14:20 text.o
-```
+## C program that illustrates files copying
+![WhatsApp Image 2024-05-18 at 14 04 20_62d7b2d6](https://github.com/DHIVYA050430/Linux-File-IO-Systems-locking/assets/147141546/31d53311-b99a-4ea9-8e82-354011106739)
+## C program that illustrates files locking
+![WhatsApp Image 2024-05-18 at 14 04 36_4e187809](https://github.com/DHIVYA050430/Linux-File-IO-Systems-locking/assets/147141546/ba5688bd-e364-48ae-8da0-1eaaae4825ae)
 
 # RESULT:
 The programs are executed successfully.
